@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in | LandHub</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/login.js"></script>
+</head>
+<body>
+  <main class="auth-shell">
+    <section class="auth-panel">
+      <a class="brand" href="index.html"><span class="brand-mark">LH</span><span>LandHub</span></a>
+      <h1>Welcome back</h1>
+      <p>Sign in to continue to your LandHub workspace.</p>
+      <form id="loginForm">
+        <div class="form-grid">
+          <div class="field full"><label for="email">Email address</label><input id="email" type="email" placeholder="name@example.com" required></div>
+          <div class="field full"><label for="password">Password</label><input id="password" type="password" placeholder="Enter your password" required minlength="6"></div>
+          <div class="field full"><label for="role">User category</label><select id="role" required><option value="">Choose a role</option><option value="customer">Customer</option><option value="seller">Seller</option><option value="manager">Manager</option><option value="admin">Admin</option></select></div>
+        </div>
+        <div class="form-footer"><button class="btn" type="submit">Sign in</button><a href="#">Forgot password?</a></div>
+      </form>
+      <p>Need an account? <a href="register.html">Choose registration</a></p>
+    </section>
+    <aside class="auth-aside"><div><h2>Clear decisions begin with clear information.</h2><p>Verified listings and role-based workflows keep every land transaction moving.</p></div></aside>
+  </main>
+</body>
+</html>
