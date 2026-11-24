@@ -1,0 +1,9 @@
+/* Member 1 - Customer marketplace interface */
+.customer-page {
+  --role-accent: #28745a;
+}
+.customer-page .sidebar { border-right: 4px solid var(--role-accent); }
+.customer-page .stat { border-top: 4px solid #4a8069; }
+.customer-page .property-row { position: relative; }
+.customer-page .data-table tr:hover { background: #edf5ef; }
+.customer-page .status { color: #205a43; }

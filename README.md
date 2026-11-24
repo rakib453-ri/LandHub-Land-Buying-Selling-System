@@ -12,6 +12,19 @@ A static Web Technology Lab Task 1 project for a multi-user land marketplace.
 - `manager/register.html` and `manager/profile.html` - manager registration and workspace
 - `seller/register.html` and `seller/profile.html` - seller registration and workspace
 
+## Lab Task 2 - CSS design
+
+The interface uses external CSS with element, class, and ID-compatible selectors, the box model, flexbox, grid, pseudo-classes, hover transitions, responsive media queries, sticky/fixed positioning, z-index, overflow, background styling, and text styling.
+
+Separate member/role stylesheets are located in:
+
+- `admin/css/admin.css`
+- `customer/css/customer.css`
+- `manager/css/manager.css`
+- `seller/css/seller.css`
+
+The shared stylesheet is `commonui/css/style.css`.
+
 ## Run locally
 
 Open `commonui/index.html` directly, or serve the project folder with:

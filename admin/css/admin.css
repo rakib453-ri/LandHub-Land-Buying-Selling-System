@@ -1,0 +1,10 @@
+/* Member 4 - Administration interface */
+#adminWorkspace,
+.admin-page {
+  --role-accent: #9e3d34;
+}
+.admin-page .sidebar { border-right: 4px solid var(--role-accent); }
+.admin-page .stat { border-top: 4px solid var(--role-accent); }
+.admin-page .role-access { position: absolute; z-index: 2; }
+.admin-page .btn { background: var(--role-accent); border-color: var(--role-accent); }
+.admin-page .status { background: #f3ddd9; color: #7c3028; }

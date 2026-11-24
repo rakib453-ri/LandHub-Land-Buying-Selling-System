@@ -1,0 +1,9 @@
+/* Member 3 - Operations and reporting interface */
+.manager-page {
+  --role-accent: #b27a20;
+}
+.manager-page .sidebar { border-right: 4px solid var(--role-accent); }
+.manager-page .stat { border-top: 4px solid var(--role-accent); }
+.manager-page .dashboard-main { background: #f6f3eb; }
+.manager-page .data-table { box-shadow: 0 8px 24px rgba(23,32,25,.08); }
+.manager-page .status { background: #f3ead4; color: #76511b; }

@@ -1,0 +1,9 @@
+/* Member 2 - Seller inventory interface */
+.seller-page {
+  --role-accent: #4d7051;
+}
+.seller-page .sidebar { border-right: 4px solid var(--role-accent); }
+.seller-page .stat { border-top: 4px solid var(--role-accent); }
+.seller-page .dashboard-main { background: #f5f7f2; }
+.seller-page .data-table tbody tr:hover { background: #eef3e9; }
+.seller-page .status { background: #dde9d8; }
