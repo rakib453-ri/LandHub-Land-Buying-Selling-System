@@ -25,6 +25,18 @@ Separate member/role stylesheets are located in:
 
 The shared stylesheet is `commonui/css/style.css`.
 
+## Lab Task 3 - JavaScript validation
+
+The login form validates email format, password length and number, and user category selection. Each of the four registration pages has a separate JavaScript file under its role `js` folder.
+
+- `commonui/js/login.js` - login validation
+- `customer/js/register.js` - customer rules
+- `seller/js/register.js` - seller rules
+- `manager/js/register.js` - manager rules
+- `admin/js/register.js` - administrator rules
+
+Validation uses variables, functions, submit events, DOM access, conditions, regular expressions, `preventDefault()`, and `innerHTML` messages.
+
 ## Run locally
 
 Open `commonui/index.html` directly, or serve the project folder with:
